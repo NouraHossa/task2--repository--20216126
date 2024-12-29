@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Run Script') {
             steps {
-                bat '"C:\\Git\\git-bash.exe" ./ls.sh'
+                bat '"C:\\Program Files\\Git\\git-bash.exe" ./ls.sh'
             }
         }
     }
