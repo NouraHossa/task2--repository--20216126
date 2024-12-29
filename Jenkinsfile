@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Run Script') {
             steps {
-                bat '"C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs" ./ls.sh'
+                sh 'bash ./ls.sh'
             }
         }
     }
